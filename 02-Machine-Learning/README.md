@@ -93,13 +93,13 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    A[Veri Topla] --> B[Temizle ve Ön İşle]
-    B --> C[Böl: Eğitim/Doğrulama/Test]
-    C --> D[Modeli Eğit]
-    D --> E[Doğrulama Üzerinde Değerlendir]
-    E -->|ince ayar yap| D
-    E --> F[Test Setinde Nihai Değerlendirme]
-    F --> G[Dağıtım (Deploy)]
+    A["Veri Topla"] --> B["Temizle ve Ön İşle"]
+    B --> C["Böl: Eğitim / Doğrulama / Test"]
+    C --> D["Modeli Eğit"]
+    D --> E["Doğrulama Üzerinde Değerlendir"]
+    E -->|"İnce ayar yap"| D
+    E --> F["Test Setinde Nihai Değerlendirme"]
+    F --> G["Dağıtım - Deploy"]
 ```
 
 ### Değerlendirme Metrikleri
