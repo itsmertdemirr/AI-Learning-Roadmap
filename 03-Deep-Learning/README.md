@@ -66,13 +66,16 @@ matematiksel olarak tek bir doğrusal fonksiyona çökerdi.
 
 ```mermaid
 flowchart LR
-    subgraph Forward["İleri Yayılım"]
-      direction LR
-      I[Girdi] --> H[Gizli Katman(lar)] --> O[Çıktı / Tahmin]
-    end
-    O --> L["Kayıp Fonksiyonu<br/>(tahmini gerçekle karşılaştırır)"]
-    L -->|Geri yayılım: gradyanlar geriye akar| H
-    H -->|ağırlıkları güncelle| I2[Güncellenmiş Ağırlıklar]
+
+subgraph Forward["İleri Yayılım"]
+    direction LR
+    I["Girdi"] --> H["Gizli Katmanlar"]
+    H --> O["Çıktı / Tahmin"]
+end
+
+O --> L["Kayıp Fonksiyonu"]
+L -->|"Tahmin ile Gerçeği Karşılaştır"| H
+H -->|"Geri Yayılım"| W["Ağırlıkları Güncelle"]
 ```
 
 1. **İleri yayılım** — girdi verisi ağdan katman katman geçerek bir tahmin üretir.
