@@ -126,7 +126,7 @@ AI-Learning-Roadmap/
 │
 ├── 02-Machine-Learning/            ← ✅ TAM
 ├── 03-Deep-Learning/               ← ✅ TAM
-├── 04-Neural-Networks/             ← 🚧 iskelet hazır
+├── 04-Neural-Networks/             ← ✅ TAM
 ├── 05-Computer-Vision/             ← 🚧 iskelet hazır
 ├── 06-NLP/                          ← 🚧 iskelet hazır
 ├── 07-LLMs/                         ← 🚧 iskelet hazır
