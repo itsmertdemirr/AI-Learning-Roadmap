@@ -82,7 +82,7 @@ flowchart LR
 | 01 | [Kural Tabanlı YZ](01-Rule-Based-AI/README.md) | ✅ Tamamlandı | Başlangıç | 4–6 sa | 10 |
 | 02 | [Makine Öğrenmesi](02-Machine-Learning/README.md) | ✅ Tamamlandı | Orta | 6–8 sa | 3 |
 | 03 | [Derin Öğrenme](03-Deep-Learning/README.md) | ✅ Tamamlandı | Orta–İleri | 8–10 sa | 1 |
-| 04 | [Sinir Ağları](04-Neural-Networks/README.md) | 🚧 Planlandı | Orta–İleri | 6–8 sa | — |
+| 04 | [Sinir Ağları](04-Neural-Networks/README.md) | ✅ Tamamlandı | Orta–İleri | 6–8 sa | 10 |
 | 05 | [Bilgisayarlı Görü](05-Computer-Vision/README.md) | 🚧 Planlandı | İleri | 8–10 sa | — |
 | 06 | [Doğal Dil İşleme](06-NLP/README.md) | 🚧 Planlandı | İleri | 8–10 sa | — |
 | 07 | [Büyük Dil Modelleri](07-LLMs/README.md) | 🚧 Planlandı | İleri | 10–12 sa | — |
